@@ -6,7 +6,7 @@
         <div id="brain-container" class="absolute inset-0 z-10"></div>
         <div class="absolute inset-0">
           <div class="relative h-full">
-            <template v-for="(tech, index) in technologies"  :key="tech.id">
+            <template v-for="(tech, index) in technologies" :key="tech.id">
               <div
                 :class="[
                   'technology-item absolute transform -translate-x-1/2 -translate-y-1/2',
@@ -254,5 +254,29 @@
   }
   .technology-item:nth-child(6) {
     animation-delay: 0.6s;
+  }
+
+  @media (max-width: 768px) {
+    #brain-container {
+      margin-top: 240px;
+      margin-left: 50px;
+      height: 200px;
+      width: 300px;
+    }
+  
+    .technology-item {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .technology-item img {
+      width: 24px;
+      height: 24px;
+      margin-left: 20px;
+    }
+  
+    .technology-item p {
+      font-size: 0.75rem;
+    }
   }
   </style>

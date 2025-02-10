@@ -31,7 +31,6 @@
             </div>
           </div>
         </section>
-  
         <!-- Skills Section -->
         <SkillsSection />
         <!-- wave line -->
