@@ -104,9 +104,9 @@
             <h3 class="text-2xl font-bold mb-2">Crypto Tracker Mobile App</h3>
             <p class="text-gray-400 mb-4">A browser for auto rescue.</p>
             <div class="flex flex-wrap space-x-2 mb-4">
-              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">React Native</span>
-              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">CSS</span>
-              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">AsyncStorage</span>
+              <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">React Native</span>
+              <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">CSS</span>
+              <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">AsyncStorage</span>
               <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">Firebase</span>
               <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">Jotai</span>
             </div>
@@ -298,5 +298,135 @@ html {
 
 :root {
   --shade-100: #1f2937; /* Adjust this color as needed */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+
+  .text-7xl {
+    font-size: 3.5rem;
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .h-48 {
+    height: 12rem;
+  }
+
+  .w-48 {
+    width: 12rem;
+  }
+
+  .h-64 {
+    height: 16rem;
+  }
+
+  .w-64 {
+    width: 16rem;
+  }
+
+  .py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .mt-8 {
+    margin-top: 2rem;
+  }
+
+  .mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .rounded-full {
+    border-radius: 9999px;
+  }
+
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .rounded-t-lg {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .transition-opacity {
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .hover\:bg-blue-600:hover {
+    background-color: #2563eb;
+  }
+
+  .hover\:bg-gray-700:hover {
+    background-color: #374151;
+  }
+
+  .hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+
+  .hover\:scale-110:hover {
+    transform: scale(1.1);
+  }
+
+  .hover\:text-white:hover {
+    color: #ffffff;
+  }
+
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+
+  .hover\:opacity-100:hover {
+    opacity: 1;
+  }
+
+  .hover\:bg-gray-700:hover {
+    background-color: #374151;
+  }
+
+  .hover\:text-white:hover {
+    color: #ffffff;
+  }
 }
 </style>
