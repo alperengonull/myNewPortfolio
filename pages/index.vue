@@ -111,6 +111,35 @@
               <span class="bg-blue-500 text-white px-3 py-1 mt-3 rounded-full text-sm">Jotai</span>
             </div>
           </div>
+          <!-- New project add -->
+           <div
+            class="relative bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-gray-700 transition-colors"
+          >
+            <div class="relative group">
+              <img
+                src="../assets/images/lebenindeutschland.png"
+                alt="Project 1"
+                class="w-full h-48 object-cover rounded-t-lg mb-4 group-hover:opacity-75 transition-opacity"
+              />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.germanlangapp"
+                class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity"
+              >
+                <span class="bg-blue-500 text-white px-4 py-2 rounded-full">Live</span>
+              </a>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Leben In Deutschland</h3>
+            <p class="text-gray-400 mb-4">Germany citizenship exam preparation application.</p>
+            <div class="flex flex-wrap space-x-2 mb-4">
+              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">React Native</span>
+              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">AsyncStorage</span>
+              <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">Gifted Charts</span>
+               <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">Splash Screen</span>
+               <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">React Native i18</span>
+               <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">Navigation</span>
+               <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mt-3">React Native Elements</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
